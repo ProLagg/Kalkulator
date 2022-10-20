@@ -52,6 +52,7 @@ namespace Kalkulator
             this.equallyBtn = new System.Windows.Forms.Button();
             this.TextOutLb = new System.Windows.Forms.Label();
             this.TextEquallyLb = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,7 +79,7 @@ namespace Kalkulator
             this.flowLayoutPanel1.Controls.Add(this.commaBtn);
             this.flowLayoutPanel1.Controls.Add(this.equallyBtn);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(1, 124);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(5, 5, 5, 0);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(378, 432);
@@ -88,7 +89,7 @@ namespace Kalkulator
             // 
             this.clearAllBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.clearAllBtn.Location = new System.Drawing.Point(7, 7);
-            this.clearAllBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clearAllBtn.Margin = new System.Windows.Forms.Padding(2);
             this.clearAllBtn.Name = "clearAllBtn";
             this.clearAllBtn.Size = new System.Drawing.Size(88, 82);
             this.clearAllBtn.TabIndex = 0;
@@ -100,7 +101,7 @@ namespace Kalkulator
             // 
             this.percentBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.percentBtn.Location = new System.Drawing.Point(99, 7);
-            this.percentBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.percentBtn.Margin = new System.Windows.Forms.Padding(2);
             this.percentBtn.Name = "percentBtn";
             this.percentBtn.Size = new System.Drawing.Size(88, 82);
             this.percentBtn.TabIndex = 1;
@@ -112,7 +113,7 @@ namespace Kalkulator
             // 
             this.divideBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.divideBtn.Location = new System.Drawing.Point(191, 7);
-            this.divideBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.divideBtn.Margin = new System.Windows.Forms.Padding(2);
             this.divideBtn.Name = "divideBtn";
             this.divideBtn.Size = new System.Drawing.Size(88, 82);
             this.divideBtn.TabIndex = 2;
@@ -124,7 +125,7 @@ namespace Kalkulator
             // 
             this.clearBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.clearBtn.Location = new System.Drawing.Point(283, 7);
-            this.clearBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.clearBtn.Margin = new System.Windows.Forms.Padding(2);
             this.clearBtn.Name = "clearBtn";
             this.clearBtn.Size = new System.Drawing.Size(88, 82);
             this.clearBtn.TabIndex = 3;
@@ -136,7 +137,7 @@ namespace Kalkulator
             // 
             this.btn1.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn1.Location = new System.Drawing.Point(7, 93);
-            this.btn1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn1.Margin = new System.Windows.Forms.Padding(2);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(88, 82);
             this.btn1.TabIndex = 4;
@@ -148,7 +149,7 @@ namespace Kalkulator
             // 
             this.btn2.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn2.Location = new System.Drawing.Point(99, 93);
-            this.btn2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn2.Margin = new System.Windows.Forms.Padding(2);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(88, 82);
             this.btn2.TabIndex = 5;
@@ -160,7 +161,7 @@ namespace Kalkulator
             // 
             this.btn3.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn3.Location = new System.Drawing.Point(191, 93);
-            this.btn3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn3.Margin = new System.Windows.Forms.Padding(2);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(88, 82);
             this.btn3.TabIndex = 6;
@@ -172,7 +173,7 @@ namespace Kalkulator
             // 
             this.multiplicationBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.multiplicationBtn.Location = new System.Drawing.Point(283, 93);
-            this.multiplicationBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.multiplicationBtn.Margin = new System.Windows.Forms.Padding(2);
             this.multiplicationBtn.Name = "multiplicationBtn";
             this.multiplicationBtn.Size = new System.Drawing.Size(88, 82);
             this.multiplicationBtn.TabIndex = 7;
@@ -184,7 +185,7 @@ namespace Kalkulator
             // 
             this.btn4.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn4.Location = new System.Drawing.Point(7, 179);
-            this.btn4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn4.Margin = new System.Windows.Forms.Padding(2);
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(88, 82);
             this.btn4.TabIndex = 8;
@@ -196,7 +197,7 @@ namespace Kalkulator
             // 
             this.btn5.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn5.Location = new System.Drawing.Point(99, 179);
-            this.btn5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn5.Margin = new System.Windows.Forms.Padding(2);
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(88, 82);
             this.btn5.TabIndex = 9;
@@ -208,7 +209,7 @@ namespace Kalkulator
             // 
             this.btn6.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn6.Location = new System.Drawing.Point(191, 179);
-            this.btn6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn6.Margin = new System.Windows.Forms.Padding(2);
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(88, 82);
             this.btn6.TabIndex = 10;
@@ -220,7 +221,7 @@ namespace Kalkulator
             // 
             this.minusBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.minusBtn.Location = new System.Drawing.Point(283, 179);
-            this.minusBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.minusBtn.Margin = new System.Windows.Forms.Padding(2);
             this.minusBtn.Name = "minusBtn";
             this.minusBtn.Size = new System.Drawing.Size(88, 82);
             this.minusBtn.TabIndex = 11;
@@ -232,7 +233,7 @@ namespace Kalkulator
             // 
             this.btn7.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn7.Location = new System.Drawing.Point(7, 265);
-            this.btn7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn7.Margin = new System.Windows.Forms.Padding(2);
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(88, 82);
             this.btn7.TabIndex = 12;
@@ -244,7 +245,7 @@ namespace Kalkulator
             // 
             this.btn8.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn8.Location = new System.Drawing.Point(99, 265);
-            this.btn8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn8.Margin = new System.Windows.Forms.Padding(2);
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(88, 82);
             this.btn8.TabIndex = 13;
@@ -256,7 +257,7 @@ namespace Kalkulator
             // 
             this.btn9.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn9.Location = new System.Drawing.Point(191, 265);
-            this.btn9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn9.Margin = new System.Windows.Forms.Padding(2);
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(88, 82);
             this.btn9.TabIndex = 14;
@@ -268,7 +269,7 @@ namespace Kalkulator
             // 
             this.plusBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.plusBtn.Location = new System.Drawing.Point(283, 265);
-            this.plusBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.plusBtn.Margin = new System.Windows.Forms.Padding(2);
             this.plusBtn.Name = "plusBtn";
             this.plusBtn.Size = new System.Drawing.Size(88, 82);
             this.plusBtn.TabIndex = 15;
@@ -280,7 +281,7 @@ namespace Kalkulator
             // 
             this.kekBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.kekBtn.Location = new System.Drawing.Point(7, 351);
-            this.kekBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.kekBtn.Margin = new System.Windows.Forms.Padding(2);
             this.kekBtn.Name = "kekBtn";
             this.kekBtn.Size = new System.Drawing.Size(88, 82);
             this.kekBtn.TabIndex = 16;
@@ -291,7 +292,7 @@ namespace Kalkulator
             // 
             this.btn0.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btn0.Location = new System.Drawing.Point(99, 351);
-            this.btn0.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn0.Margin = new System.Windows.Forms.Padding(2);
             this.btn0.Name = "btn0";
             this.btn0.Size = new System.Drawing.Size(88, 82);
             this.btn0.TabIndex = 17;
@@ -303,7 +304,7 @@ namespace Kalkulator
             // 
             this.commaBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.commaBtn.Location = new System.Drawing.Point(191, 351);
-            this.commaBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.commaBtn.Margin = new System.Windows.Forms.Padding(2);
             this.commaBtn.Name = "commaBtn";
             this.commaBtn.Size = new System.Drawing.Size(88, 82);
             this.commaBtn.TabIndex = 18;
@@ -315,7 +316,7 @@ namespace Kalkulator
             // 
             this.equallyBtn.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.equallyBtn.Location = new System.Drawing.Point(283, 351);
-            this.equallyBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.equallyBtn.Margin = new System.Windows.Forms.Padding(2);
             this.equallyBtn.Name = "equallyBtn";
             this.equallyBtn.Size = new System.Drawing.Size(88, 82);
             this.equallyBtn.TabIndex = 19;
@@ -345,6 +346,15 @@ namespace Kalkulator
             this.TextEquallyLb.TabIndex = 7;
             this.TextEquallyLb.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(141, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -352,15 +362,17 @@ namespace Kalkulator
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(380, 562);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.TextEquallyLb);
             this.Controls.Add(this.TextOutLb);
             this.Controls.Add(this.flowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -389,6 +401,7 @@ namespace Kalkulator
         private System.Windows.Forms.Button equallyBtn;
         private System.Windows.Forms.Label TextOutLb;
         private System.Windows.Forms.Label TextEquallyLb;
+        private System.Windows.Forms.Label label1;
     }
 }
 
